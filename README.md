@@ -1,87 +1,42 @@
-# Welcome to React Router!
+# Frontend Templates
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Welcome to the **Frontend Templates** project! This repository provides a collection of reusable templates for building modern web frontends. The goal is to accelerate development by offering well-structured, customizable starting points for various frontend technologies.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- Ready-to-use templates for popular frameworks (React, Vue, Angular, etc.)
+- Modular and scalable code structure
+- Best practices for styling, state management, and routing
+- Easy customization and integration
 
 ## Getting Started
 
-### Installation
-
-Install the dependencies:
+1. Clone the repository:
 
 ```bash
-npm install
+git clone https://github.com/nvcan1236/frontend-templates.git
 ```
 
-### Development
-
-Start the development server with HMR:
+2. Checkout to the desired template branch:
 
 ```bash
-npm run dev
+git checkout <template-branch>
 ```
 
-Your application will be available at `http://localhost:5173`.
+Replace `<template-branch>` with the name of the template you want to use.
+Refer below table for available templates.
+| Branch| Template Name | Description |
+|---------------|---------------|-------------|
+| `react-with-react-router-v7` | React Router with Vite | Prettier, ESLint, Tailwind CSS |
 
-## Building for Production
+1. Follow the instructions in each template's README to set up and customize.
 
-Create a production build:
+## Contributing
 
-```bash
-npm run build
-```
+Contributions are welcome! Please open issues or submit pull requests to suggest new templates or improvements.
 
-## Deployment
+## License
 
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+This project is licensed under the MIT License.
 
 ---
-
-Built with ❤️ using React Router.
